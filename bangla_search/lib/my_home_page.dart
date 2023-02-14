@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'bangla_data.dart';
+
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key});
 
@@ -8,14 +10,6 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  final data = [
-    "আমি",
-    "তুমি",
-    "সে",
-    "সোমা",
-    "তাঁর",
-    "আমাদের",
-  ];
   var searchController = TextEditingController();
   List<String> filteredData = <String>[];
 
